@@ -67,11 +67,14 @@ export default function Home() {
             height={360}
             className="max-w-full"
           />
+          <Link href="/home/2">
           <button className="absolute bottom-20 left-1 m-3 bg-blue-400 hover:bg-blue-600 text-white font-normal py-2 px-4 rounded hidden lg:block">
-            Rental Car
+           Rental Car
           </button>
+          </Link>
         </div>
       </section>
+
 
       <section
         id="block2"

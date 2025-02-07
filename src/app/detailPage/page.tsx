@@ -50,7 +50,7 @@ export default function page() {
                   </span>
                 </h1>
               </div>
-              <Link href={"/paymentPage"}>
+              <Link href={"/payment"}>
                 <button className="bg-[#3563e9] hover:bg-[#264ac6] transition-all p-3 sm:p-4 px-6 sm:px-10 text-nowrap  text-white rounded-md w-full max-w-[180px] text-center">
                   Rent Now
                 </button>
@@ -77,7 +77,7 @@ export default function page() {
         <section className="popular w-full flex flex-col gap-5">
           <div className="first w-full flex items-center justify-between px-10 xl:px-14">
             <h1 className="text-gray-500 text-lg sm:text-xl">Recent Car</h1>
-            <Link href={"/categories"}>
+            <Link href={"/carcategory"}>
               <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
                 View All
               </h1>
