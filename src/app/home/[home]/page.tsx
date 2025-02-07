@@ -13,9 +13,7 @@ const page = () => {
      
       <Hero/>
       <Filter/>
-      
       <About/>
-      {/* <Datafetch/> */}
       
     </div>
   );
